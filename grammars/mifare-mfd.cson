@@ -7,17 +7,13 @@ Copyright 2017 Joan Bono
 
 'patterns': [
     {
-        'match': '^:([0-9a-fA-F]{2})([0-9a-fA-F]{4})([0-9a-fA-F]{2})([0-9a-fA-F]*)(.{2})$'
+        'match': '^:([0-9a-fA-F]{12})([0-9a-fA-F]{8})([0-9a-fA-F]{12})$'
         'captures':
             '1':
-                'name': 'constant.numeric.mifare-mfd'
+                'name': 'constant.keyA.mifare-mfd'
             '2':
-                'name': 'storage.type.mifare-mfd'
+                'name': 'string.accessbytes.mifare-mfd'
             '3':
-                'name': 'entity.name.function.mifare-mfd'
-            '4':
-                'name': 'string.quoted.single.mifare-mfd'
-            '5':
-                'name': 'constant.language.mifare-mfd'
+                'name': 'constant.keyB.mifare-mfd'
     }
 ]
