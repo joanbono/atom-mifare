@@ -1,5 +1,5 @@
 {
-  "name": "mifare-mfd",
+  "name": "atom-mifare",
   "version": "0.3.0",
   "description": "Syntax highlighting for Mifare dump files.",
   "engines": {
