@@ -2,7 +2,7 @@
 
 Syntax highlighting for Mifare MFD dumps.
 
-Inspired on [mfdread](https://github.com/zhovner/mfdread)
+Inspired on [mfdread](https://github.com/zhovner/mfdread).
 
 ### Installation
 
